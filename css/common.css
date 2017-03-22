@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face {
+  font-family: 'Merriweather-Light';
+  src: url('../fonts/Merriweather-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Merriweather-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Merriweather-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Merriweather-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Merriweather-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Merriweather-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Ruthie-Regular';
+  src: url('../fonts/Ruthie-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Ruthie-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Ruthie-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Ruthie-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Ruthie-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Ruthie-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}

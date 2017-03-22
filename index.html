@@ -1,0 +1,259 @@
+<!document html>
+<html lang="pl">
+
+<head>
+<title>strona jQuery</title>
+<meta charset="utf-8">
+
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/common.css"/>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/jquery.carouFredSel-6.0.0.js"></script>
+<script type="text/javascripit" src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css"/>
+<script type="text/javascript" src="js/jquery.onepage-scroll.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/screen.css"/>
+
+
+<script>
+
+	
+	
+	
+	
+	
+
+$(document).ready(function() {
+
+$(".main").onepage_scroll({
+   sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
+   easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
+                                    // "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
+   animationTime: 1000,             // AnimationTime let you define how long each section takes to animate
+   pagination: true,                // You can either show or hide the pagination. Toggle true for show, false for hide.
+   updateURL: false,                // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
+   beforeMove: function(index) {},  // This option accepts a callback function. The function will be called before the page moves.
+   afterMove: function(index) {},   // This option accepts a callback function. The function will be called after the page moves.
+   loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
+   keyboard: true,                  // You can activate the keyboard controls
+   responsiveFallback: false,        // You can fallback to normal page scroll by defining the width of the browser in which
+                                    // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
+                                    // the browser's width is less than 600, the fallback will kick in.
+   direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
+});
+
+});
+	
+</script>
+</head>
+
+
+
+
+<body>
+
+
+<div class="main">
+
+	<section id="header">
+		<div class="row">
+			<p id="coach">coach</p>
+			<div class="col-sm-6 coach">
+				<p id="iwona">Iwona</p>
+				<img src="img/coach.jpg" class="img-responsive"  />
+			</div>
+			<div class="col-sm-6 wzor">
+				<p id="santu">Santu</p>
+				<img  src="img/wzor.jpg"  class="img-responsive"/>
+			</div>
+				<span class="fa-stack ut-custom-icon fa-2x super">
+					<i class="fa fa-circle fa-stack-2x" style="color:#d0d0d0"></i>
+					<i class="fa fa-angle-down fa-stack-1x" style="color:#833fb6"></i>
+				</span>
+		</div>
+		<h3 class="subtytul">Jestem certyfikowanym coachem ICF.</h3>
+		<div class="misja container-fluid">Na codzień pomagam swoim klientom przezwyciężać napotykane problemy zarówno w sferze prywatnej jak i zawodowej z wykorzystaniem narzędzi life coachingu. Jeśli należysz do osób które potrzebują rozwiązań problemów i pozytywnego wsparcia w ich realizacji zapraszam do współpracy.
+		<br>
+		<br>
+		W moim przekonaniu życie jest takie, jakie są nasze myśli, to co się dzieje wewnątrz nas będzie kształtować naszą rzeczywistość. To od nas samych zależy jak przeżyjemy nasze życie. To my sami tworzymy je i kreujemy. Podczas szkoleń oraz sesji chcę byśmy wspólnie poprzez interakcję oraz zabawę poznawali, że świadomość bycia tu i teraz zwiększa naszą uważność a dzieki temu możemy pójść o krok dalej wyjść poza schematy. Poznać nieznane. Podczas zajęć będę dbała o wasze samopoczucie oraz rozwój intelektualno-emocjonalny tak by praca była przyjemnością.
+		
+		</div>		
+	</section>
+		
+
+
+	<section id="ofertaSection">
+	
+	<div class="wrap">
+	
+	<div class="bgimage">
+
+		<div class="row">
+			<div class="col-md-3 one">
+				<span class="fa-stack ut-custom-icon fa-4x alignnone">
+				<i class="fa fa-circle fa-stack-2x" style="color:#c5298e"></i>
+				<i class="fa fa-lightbulb-o fa-stack-1x" style="color:#ffffff"></i>
+				</span>
+				<p>coaching</p>				
+			</div>
+			<div class="col-md-3 two">
+				<span class="fa-stack ut-custom-icon fa-4x alignnone">
+				<i class="fa fa-circle fa-stack-2x" style="color:#c5298e"></i>
+				<i class="fa fa-black-tie fa-stack-1x" style="color:#ffffff"></i>				
+				</span>
+				<p>kreowanie wizerunku</p>						
+			</div>
+			<div class="col-md-3 three">
+				<span class="fa-stack ut-custom-icon fa-4x alignnone">
+				<i class="fa fa-circle fa-stack-2x" style="color:#c5298e"></i>
+				<i class="fa fa-graduation-cap fa-stack-1x" style="color:#ffffff"></i>
+				</span>
+				<p>szkolenia </p>						
+			</div>
+			<div class="col-md-3 four">
+				<span class="fa-stack ut-custom-icon fa-4x alignnone">
+				<i class="fa fa-circle fa-stack-2x" style="color:#c5298e"></i>
+				<i class="fa fa-microphone fa-stack-1x" style="color:#ffffff"></i>
+				</span>
+				<p>wystąpienia publiczne</p>						
+			</div>
+		</div>
+		
+	</div>
+</div>
+			
+	</section>
+	
+	<section class="referencjeSection">
+	<div class="image_carousel">
+	<div id="foo2">
+		<p class="slide one">To jest pierwszy tekst</p>
+		<p class="slide two">To jest drugi tekst.</p>
+		<p class="slide three">To jest trzeci tekst.</p>
+		
+	</div>
+	<div class="clearfix"></div>
+	<a class="prev" id="foo2_prev" href="#"><i class="fa fa-angle-double-left" style="color:#afafaf;font-size: 3.5em;"></i></a>
+	<a class="next" id="foo2_next" href="#"><i class="fa fa-angle-double-right" style="color:#afafaf;font-size: 3.5em;"></i></a>
+	<div class="pagination" id="foo2_pag"></div>
+</div>
+			
+
+
+	</section>
+	
+<section id="formularz">
+
+
+<input class="imie" type="text" name="firstname" value="Imię" onblur="onBlur(this)" onfocus="onFocus(this)"></input><br>
+<input class="nazwisko" type="text" name="lastname" value="Nazwisko" onblur="onBlur(this)" onfocus="onFocus(this)"></input><br>
+<input class="email" type="text" name="email" value="Email" onblur="onBlur(this)" onfocus="onFocus(this)"></input><br>
+<textarea class="tresc" value="Tresc wiadomosci"></textarea><br>
+<button class="wyslij">Wyślij</button>
+
+</section>
+
+</div>
+
+<footer  id="kontaktSection">
+
+	<h1 class="footer">Skontaktuj się ze mną</h1><br>
+
+	<div class="ikony">
+	
+		<img class="facebook-black" src="img/facebook-black.png" align="left"/>
+		<img class="tumblir-black" src="img/tumblir-black.png" align="left"/>
+		<img class="twitter-black" src="img/twitter-black.png" align="left"/>
+		<img class="google-black" src="img/google-black.png" align="left"/>			
+	</div>
+	
+</footer>
+
+
+	
+<script>
+
+
+
+	$(document).ready(function() {
+
+
+			
+
+	
+	
+	});
+	
+
+function onBlur(el) {
+    if (el.value == '') {
+        el.value = el.defaultValue;
+    }
+}
+function onFocus(el) {
+    if (el.value == el.defaultValue) {
+        el.value = '';
+    }
+}
+	
+	
+	
+$(document).ready(function() {
+	setBindings();
+
+});
+
+function setBindings() {
+	$('nav a').click(function(e){
+		e.preventDefault();
+		var sectionID = e.currentTarget.id + 'Section';
+
+	$('html body').animate({
+		scrollTop: $('#' + sectionID).offset().top}, 1000)
+});
+
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	$("#foo2").carouFredSel({
+	circular: false,
+	infinite: false,
+	auto 	: false,
+	prev	: {
+		button	: "#foo2_prev",
+		key		: "left"
+	},
+	next	: {
+		button	: "#foo2_next",
+		key		: "right"
+	},
+	pagination	: "#foo2_pag"
+});
+	
+	
+	
+	
+	
+</script>	
+</body>
+
+</html>
